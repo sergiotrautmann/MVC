@@ -4,3 +4,5 @@ class Model:
 
     def get_lista_compras(self):
         return self.lista_compras
+    def carregar_lista_compras(self, lista_compras):
+        self.lista_compras = lista_compras

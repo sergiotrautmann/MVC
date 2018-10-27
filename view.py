@@ -29,6 +29,7 @@ class View:
                 print('\n Item excluído')
             elif resposta == 4:
                 print('Vlw! Falou!')
+                self.control.salvar_arquivo()
                 resposta = False
             else:
                 print('\n Valor incorreto!')
